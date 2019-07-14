@@ -1,0 +1,11 @@
+html {
+    background-color: rgb(166, 210, 255);
+  }
+.link {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid rgb(0, 24, 92);
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    margin: 0;
+}  
