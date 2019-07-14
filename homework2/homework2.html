@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Started!</title>
+</head>
+<body>
+        <div class="tab">
+           <button class="tablinks" onclick="openCity(event, 'Name')">Наименование</button>
+           <button class="tablinks" onclick="openCity(event, 'Number')">Количество орудий</button>
+           <button class="tablinks" onclick="openCity(event, 'Size')">Размер</button>
+           <button class="tablinks" onclick="openCity(event, 'Draft')">Осадка</button>
+        </div>
+
+        <div id="Name" class="tabcontent">
+            <h3>Имя судна, в случае если оно не сохранилось, указывается количество однотипных судов</h3>
+            <p>«Золота́я лань» (англ. Golden Hind) — небольшой английский галеон, который между 1577 и 1580 годами обогнул Земной шар. Это был второй в истории корабль, вернувшийся из кругосветного плавания после магеллановской каракки «Виктория». Капитаном судна был сэр Френсис Дрейк. </p>
+        </div>
+              
+        <div id="Number" class="tabcontent">
+            <h3>Количество артиллерийских орудий, установленных на судне. В случае, если судно в разное время было вооружено различным количеством орудий, значения указываться через знак «/».</h3>
+            <p>Галеон был оснащён 22 пушками. </p>
+        </div>
+              
+       <div id="Size" class="tabcontent">
+           <h3>Длина и ширина судна в метрах.</h3>
+           <p>Первоначально это трёхмачтовое флагманское судно называлось «Пеликан». Его длина составляла всего лишь 36,5 метров, ширина — 6,7 метров, грузовместимость — не более 150 тонн</p>
+         </div>
+    
+         <div id="Draft" class="tabcontent">
+           <h3>Осадка судна (глубина погружения в воду) в метрах.</h3>
+           <p>осадка — 2,2 метра</p>
+         </div>  
+      
+         <ul id="slides"><!-- внутренний враппер -->
+            <div><img src="https://pp.userapi.com/c852124/v852124196/16ed21/JqFY960te_4.jpg" alt="First" class="slide showing" /></div>
+            <div><img src="https://pp.userapi.com/c850232/v850232196/18d5cd/qdK-1kwDaMQ.jpg" alt="Second" class="slide" /></div>
+            <div><img src="https://pp.userapi.com/c850232/v850232196/18d5d6/J77GczfP3TY.jpg" alt="Third" class="slide" /></div>
+            <div class="slider-nav">
+                <button class="controls1" id="previous">Previous</button>
+                <button class="controls2" id="next">Next</button>
+            </div>
+          </ul>
+        <div class="dropdown">
+           <button id="D1" class="dropbtn" >Dropdown</button>
+              <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Надпись</a>
+                  <a href="#">Еще надпись</a>
+                  <a href="#">И еще надпись</a>
+              </div>  
+        </div>
+        
+        <button id=btn_modal_window>Открыть новое окно</button>
+        <div class='modal' id='mymodal'>
+            <div class='modal_content'> <span class='close_modal_window' id='close_modal_window'>&times;</span> 
+              Тестовая информация
+            </div>
+        </div>
+<script  src="dropdown.js" async></script>
+<script  src="Tabs.js" async></script>
+<script  src="slide.js" async></script>
+<script src="popup.js" async></script>
+
+
+</body>
+</html>

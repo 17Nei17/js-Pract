@@ -1,0 +1,13 @@
+html {
+    background-color: rgb(194, 225, 255);
+  }
+.block1 {
+    font-family: cursive;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(41, 7, 54);
+    font-size: 200%;
+    padding: 20px 20px 20px 20px;
+}
