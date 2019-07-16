@@ -1,5 +1,5 @@
 {
-  "name": "pract-3",
+  "name": "neite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,6 +7,6 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nei",
   "license": "ISC"
 }
