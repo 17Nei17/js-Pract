@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>server</title>
+</head>
+<body>
+        <button id="login" class="button" >получить список зарегистрированных </button>
+
+        <form action="" method="post" name="test" id="form">
+            <center>Логин:</center>
+            <center>Email:</center>
+            <center><input type="text" name="name" placeholder="Имя" id="name" /></center>
+            <center>Password:</center>
+            <center> <input type="password" name="password" placeholder="Пароль" id="password" /></center>
+            <center><input id="submit" type="button" name="submit"  onclick="valid(document.getElementById('form'))" value="Вход" /></center> 
+            
+        </form>
+        <center><input id="logout" type="button"   value="выполнен вход" /></center> 
+
+        <form action="" method="post" name="test" id="form2">
+                <center>регистрация:</center>
+                <center>Email:</center>
+                <center><input type="text" name="name" placeholder="Имя" id="name" /></center>
+                <center><input id="activate" type="button" name="activate"  onclick="valid2(document.getElementById('form2'))" value="Вход" /></center> 
+            </form>
+            <form action="" method="post" name="test" id="form3">
+                <center>отправка картинок</center>
+                <center><input type="text" name="name" placeholder="Имя" id="name" /></center>
+                <center><input id="load" type="button"   onclick="valid2(document.getElementById('form3'))" value="загрузить картинку" /></center> 
+            </form>
+        <script src="login.js" async></script>
+</body>
+</html>

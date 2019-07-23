@@ -1,0 +1,15 @@
+html {
+    background-color: rgb(149, 202, 255);
+  }
+  #form {
+    padding: 30px;
+    background: rgb(76, 74, 199);
+    color: #fff;
+    border-radius: 10px;
+  }
+  #form2 {
+    padding: 30px;
+    background: rgb(70, 87, 160);
+    color: #fff;
+    border-radius: 10px;
+  }
