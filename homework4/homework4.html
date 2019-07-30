@@ -21,17 +21,25 @@
         </form>
         <center><input id="logout" type="button"   value="выполнен вход" /></center> 
 
-        <form action="" method="post" name="test" id="form2">
+        <form action=""  name="test2" id="form2">
                 <center>регистрация:</center>
                 <center>Email:</center>
-                <center><input type="text" name="name" placeholder="Имя" id="name" /></center>
-                <center><input id="activate" type="button" name="activate"  onclick="valid2(document.getElementById('form2'))" value="Вход" /></center> 
+                <center><input type="text" name="name2"  id="name2" /></center>
+                <center><input id="activate" type="button" name="activate" 
+                     onclick="valid2(document.getElementById('form2'))" value="Вход" /></center> 
             </form>
-            <form action="" method="post" name="test" id="form3">
+
+            <form action="" id="file-form"  name='fileinfo' >
                 <center>отправка картинок</center>
-                <center><input type="text" name="name" placeholder="Имя" id="name" /></center>
-                <center><input id="load" type="button"   onclick="valid2(document.getElementById('form3'))" value="загрузить картинку" /></center> 
+                <center><input type="file" name="file"></center>
+                <center><input  type="submit"  value="submit" /></center> 
             </form>
-        <script src="login.js" async></script>
+
+            <input type="text" name="name2"  id="comments" />
+            <button id="comment" class="button" >отправка коммента </button>
+            <button id="allcomment" class="button" >список комментов </button>
+            <script src="login.js" async></script>
+        <script src="picture.js" async></script>
+        <script src="comment.js" async></script>
 </body>
 </html>
