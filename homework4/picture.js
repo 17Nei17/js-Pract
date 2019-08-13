@@ -1,6 +1,6 @@
 
 function PictureLoad (method,data,headers) {
-    fetch ('"https://intern-staging.herokuapp.com/api/file' , {
+    fetch ('https://intern-staging.herokuapp.com/api/file' , {
         method:method,
         body:data,
         headers:headers,  
