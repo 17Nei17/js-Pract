@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <form action=""  name="add" id="form">
+                <h2><center>Добавление в localStorage:</center></h1> 
+            <center>введите название (key):</center>
+            <center><input type="text"   id="key" /></center>
+            <center>введите значение (value):</center>
+            <center><input type="text"   id="value" /></center>
+            <center><input id="add" type="button" 
+                 onclick="localStorag(document.getElementById('form'))" value="добавить в localStorage" /></center> 
+        </form>
+        <form action=""  name="extract" id="form2">
+                <h3><center>извлечь из localStorage по значению key:</center></h3> 
+                <center>введите название (key):</center>
+                <center><input type="text"   id="key" /></center>
+                <center><input id="extract" type="button" 
+                        onclick="exctract(document.getElementById('form2'))" value="извлечь в консоль" /></center> 
+        </form>
+        <form action=""  name="delete" id="form3">
+                    <h3><center>удалить из localStorage по значению key:</center></h3> 
+                    <center>введите название (key):</center>
+                    <center><input type="text"   id="key" /></center>
+                    <center><input  type="button" 
+                            onclick="remove(document.getElementById('form3'))" value="удалить элемент по его key" /></center> 
+        </form>
+        <form action=""  name="clear" id="form4">
+                        <h3><center>очистить весь localStorage:</center></h3> 
+                        <center><input type="button" 
+                                onclick="clearAll(document.getElementById('form4'))" value="очистить весь localStorage" /></center> 
+        </form>
+</body>
+</html>
